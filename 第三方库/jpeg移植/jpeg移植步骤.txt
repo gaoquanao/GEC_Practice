@@ -1,0 +1,3 @@
+jpeg“∆÷≤≤Ω÷Ë
+  £®1£©./configure --prefix=/home/gec/jpeg/arm-jpeg  CC=arm-linux-gcc --host=arm-linux --enable-shared --enable-static
+  £®2£©make && make install

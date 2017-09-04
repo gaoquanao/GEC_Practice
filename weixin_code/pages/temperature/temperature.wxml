@@ -1,0 +1,14 @@
+<view class="container">
+
+    <view class="temp_wrap">
+            <view class="wrap">
+                <view id="temp">{{temperature}}</view>
+                <view id="text">o</view>
+            </view>
+    </view>
+
+    <view class="word_wrap">
+            <view id="temp_text" >当前温度</view>
+    </view>
+
+</view>

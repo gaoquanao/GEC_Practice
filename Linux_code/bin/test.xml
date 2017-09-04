@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>
+  <version>1.1</version>
+  <rawtext>关灯</rawtext>
+  <confidence>82</confidence>
+  <engine>local</engine>
+  <result>
+    <focus>close|light</focus>
+    <confidence>98|75</confidence>
+    <object>
+      <close id="65535">关</close>
+      <light id="65535">灯</light>
+    </object>
+  </result>
+</nlp>

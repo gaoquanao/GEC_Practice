@@ -1,0 +1,16 @@
+﻿#BNF+IAT 1.0 UTF-8;
+!grammar call;
+!slot <hold>;
+!slot <light>;
+!slot <window>;
+!slot <open>;
+!slot <close>;
+!start <commands>;  //定义主规则
+<commands>:<controlLight>|<controlWindow>;
+<controlLight>:<open><light>|[<hold>]<light><open>|<close><light>|[<hold>]<light><close>;
+<controlWindow>:<open><window>|[<hold>]<window><open>|<close><window>|[<hold>]<window><close>;
+<hold>:把;
+<open>:开|开一下|打开;
+<close>:关|关一下|关闭|关掉;
+<light>:灯|灯光|日光灯;
+<window>:窗|窗户;

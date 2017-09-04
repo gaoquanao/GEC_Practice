@@ -1,0 +1,16 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx; 
+  background-color: #ebebeb; 
+}
+.log-item {
+  width: 100%;
+  height: 70rpx;
+  margin: 10px;   
+  line-height: 70rpx;
+  color: blue;
+  font-size: 50rpx;
+  background-color: #55C180;
+  margin-right: 30px;
+}

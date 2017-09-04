@@ -1,0 +1,11 @@
+<view class="container">
+
+  <view class="light_wrap">
+    <image id="light"  src="{{src}}"></image>
+  </view>
+
+  <view class="button_wrap">
+    <view id="button_text"  bindtap="ledCtrollSwitch">灯光开关</view>
+  </view>
+
+</view>

@@ -1,0 +1,15 @@
+<view class="container">
+        
+    <view class="humid_wrap">
+            <view class="wrap">
+                <view id="humid">{{humidity}}</view>
+                <view id="text">RH</view>
+            </view>
+    </view>
+
+    <view class="word_wrap">
+            <view id="humid_text" >当前湿度</view>
+    </view>
+            
+</view>
+        

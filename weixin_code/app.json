@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/temperature/temperature",
+    "pages/humid/humid",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "智能管家",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar" : {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list" : [
+        {
+          "pagePath" : "pages/index/index",
+          "iconPath" : "image/light.png",
+          "selectedIconPath": "image/lightHL.png",
+          "text" : "开关"
+        },
+        {
+          "pagePath": "pages/temperature/temperature",
+          "iconPath": "image/temp.png",
+          "selectedIconPath": "image/tempHL.png",
+          "text": "温度"
+        },
+        {
+          "pagePath": "pages/humid/humid",
+          "iconPath": "image/humid.png",
+          "selectedIconPath": "image/humidHL.png",
+          "text": "湿度"
+        }
+    ]
+  },
+  "debug" : true
+}
