@@ -661,7 +661,7 @@ int close_light(int serial_fd)
 
 <center>通信协议设计</center>
 
-![](./markdown/协议.png)
+![](./res/markdown/协议.png)
 
   与小程序的通信其实是通过协议实现的，要向小程序发送温湿度数据，只需将通信协议的Dst设置为0，cmd设置为对应的值，在value中填充数据即可。同理，接收到小程序发来的数据只需将cmd和value中的值取出来，就可以知道具体的指令是什么了。需要注意的是网络字节序与主机字节序的转换。
 
